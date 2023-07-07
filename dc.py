@@ -17,6 +17,7 @@ df1 = df.dropna()  # dropping the missing values of columns
 print(df1.isnull().sum())
 # check for information concerning the dataset
 print(df.info())
+# since no duplicate values , hence this is already clean
 
 
 
